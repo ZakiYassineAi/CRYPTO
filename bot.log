@@ -1,0 +1,4 @@
+/home/user/webapp/money-maker-bot.py:22: DeprecationWarning: Argument login_or_token is deprecated, please use auth=github.Auth.Token(...) instead
+  self.github = Github(GITHUB_TOKEN)
+Request POST /repos/SchmarrnDevs/Lighty/forks failed with 403: Forbidden
+Request POST /repos/Epitech-2nd-Year-Projects/AREA/forks failed with 403: Forbidden
