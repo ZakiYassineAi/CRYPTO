@@ -716,3 +716,21 @@ Request POST /repos/SAKK-Statistics/survSAKK/forks failed with 403: Forbidden
    ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}Request POST /repos/rohanrhu/MacsyZones/forks failed with 403: Forbidden
 Request GET /search/issues?q=readme+is%3Aissue+is%3Aopen failed with 403: Forbidden
 Setting next backoff to 60s
+Request GET /search/issues?sort=created&order=desc&q=org%3Aalgora-io+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=bounty+bug+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request POST /repos/vedatechnologiesinc/vedatechnologiesinc.github.io/issues/98/comments failed with 403: Forbidden
+Setting next backoff to 2445.623628s
+Request POST /repos/vedatechnologiesinc/vedatechnologiesinc.github.io/forks failed with 403: Forbidden
+Request POST /repos/FSpitzock/Checkmate_To_Do_List_tracker/forks failed with 403: Forbidden
+Request POST /repos/freeall/create-repository/forks failed with 403: Forbidden
+Request GET /search/issues?q=reward+security+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 50.624786s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request POST /repos/WindRunnerMax/EveryDay/forks failed with 403: Forbidden
+Request POST /repos/bryanivanblandon/coro-app/forks failed with 403: Forbidden
+Request POST /repos/Asterium360/client/forks failed with 403: Forbidden
