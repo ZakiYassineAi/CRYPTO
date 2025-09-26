@@ -6,7 +6,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Qethys/medusa-payment-hyperswitch"
+    "url": "git+https://github.com/Qethys/medusa-payment-hyperswitch.git"
   },
   "files": [
     "dist"
@@ -41,5 +41,12 @@
     "payment",
     "juspay"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/Qethys/medusa-payment-hyperswitch/issues"
+  },
+  "homepage": "https://github.com/Qethys/medusa-payment-hyperswitch#readme"
 }
