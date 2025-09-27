@@ -1491,3 +1491,38 @@ Request POST /repos/teia-community/teia-docs/forks failed with 403: Forbidden
    🍴 Forking DingJianhao/StoG-meets-SNN...Request POST /repos/DingJianhao/StoG-meets-SNN/forks failed with 403: Forbidden
 Request POST /repos/JeffToken31/Portfolio-project-Zafira/forks failed with 403: Forbidden
 Request POST /repos/vitdobatovkin/uber-ldyr1/forks failed with 403: Forbidden
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.760038s
+Request POST /repos/samuel-duhaime/chronotopia/forks failed with 403: Forbidden
+Request POST /repos/NVIDIA/Isaac-GR00T/forks failed with 403: Forbidden
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 56.003259s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.706487s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.161074s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.208558s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.120842s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 54.928257s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.174842s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 54.869908s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 52.78123s
+Request POST /repos/eightyfourweb/waffle/forks failed with 403: Forbidden
+Request POST /repos/jeremylt/csci-3656-fall-2025/forks failed with 403: Forbidden
+Request POST /repos/RIT-Base/RIT-MULT/forks failed with 403: Forbidden
+Request POST /repos/vitdobatovkin/intel-lfk64/forks failed with 403: Forbidden
+Request POST /repos/vitdobatovkin/intel-lfk64/forks failed with 403: Forbidden
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 56.433074s
+Request GET /search/issues?sort=created&order=desc&q=org%3Aalgora-io+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 13.94281s
+Request GET /search/issues?q=bounty+bug+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 58.343745s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 56.78254s
