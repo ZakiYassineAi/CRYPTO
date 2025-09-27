@@ -1,0 +1,1528 @@
+/home/user/webapp/money-maker-bot.py:22: DeprecationWarning: Argument login_or_token is deprecated, please use auth=github.Auth.Token(...) instead
+  self.github = Github(GITHUB_TOKEN)
+Request POST /repos/SchmarrnDevs/Lighty/forks failed with 403: Forbidden
+Request POST /repos/Epitech-2nd-Year-Projects/AREA/forks failed with 403: Forbidden
+Request POST /repos/MukeshRamachandran/profile/forks failed with 403: Forbidden
+✅ Authenticated as: Qethys
+🚀 Money Maker Bot Started
+💰 Payment: 0x958BD67f2f6be2Dc46D0e9e0Dd6d33F52EfCA67C
+👤 Account: Qethys
+
+
+🎯 Hunting Algora Bounties...
+
+💵 Found $20.0 bounty: 🧪 Testing Bounty: PR #1967 - Add RDP Support
+   📍 https://github.com/mediar-ai/screenpipe/issues/1968
+   📊 Type: test
+   ✅ Solution posted!
+
+🐛 Hunting Bug Bounties...
+
+🎯 Bug bounty $6.0: 0xnevi security review
+   📊 Type: test
+   ✅ Solution posted!
+
+🎯 Bug bounty $190.0: Security Audit Report – Clones Reward Pool Contracts
+   📊 Type: test
+   ✅ Solution posted!
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: Documentation/Protocol documentation
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking EPITECH-IT-2028/R-Type...
+   🔀 Would create PR on branch: fix-issue-5
+
+📄 Documentation issue: Documentation/Developper Documentation
+   📊 Type: documentation
+   ✅ Solution posted!
+   🔀 Would create PR on branch: fix-issue-2
+
+📄 Documentation issue: [DOCUMENTATION] - Improve Project Documentation
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking Tenvid/Frikibot...
+   🔀 Would create PR on branch: fix-issue-56
+
+📄 Documentation issue: typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking victor-stone/entiendo...
+   🔀 Would create PR on branch: fix-issue-24
+
+📄 Documentation issue: typos
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking jesualdotomasfernandezbreis/charter-wg-oki...
+   🔀 Would create PR on branch: fix-issue-4
+
+📄 Documentation issue: Typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking Foundations-of-Applied-Mathematics/Lab-Issues...
+   🔀 Would create PR on branch: fix-issue-382
+
+📄 Documentation issue: Readme
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking ICEI-PUC-Minas-PMV-ADS/pmv-ads-2025-2-e1-proj-web-t8-g4-photograpp...
+   🔀 Would create PR on branch: fix-issue-8
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking cdzombak/raindrop-io-api-client...
+   🔀 Would create PR on branch: fix-issue-6
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking condynsate/condynsate...
+   🔀 Would create PR on branch: fix-issue-8
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 46
+   Solutions Posted: 12
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 12/46 (26%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+🎯 Bug bounty $2.0: Security Audit & Fixes
+   📊 Type: test
+   ✅ Solution posted!
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: Typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking SchmarrnDevs/Lighty...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking Epitech-2nd-Year-Projects/AREA...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 50
+   Solutions Posted: 15
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 15/50 (30%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: ReadMe
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking MukeshRamachandran/profile...
+   ⚠️ PR creation skipped: The repository exists, but it contains no Git content. Empty repositories cannot be forked.: 403 {"message": "The repository exists, but it contains no Git content. Empty repositories cannot be forked.", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...Request POST /repos/dotnet/docs/forks failed with 403: Forbidden
+Request POST /repos/kloudlite/kloudlite/forks failed with 403: Forbidden
+Request POST /repos/kloudlite/kloudlite/forks failed with 403: Forbidden
+Request POST /repos/kloudlite/kloudlite/forks failed with 403: Forbidden
+Request POST /repos/REGEX777/JettCRM/forks failed with 403: Forbidden
+Request POST /repos/Liseu1/kanarownik-solvro-backend/forks failed with 403: Forbidden
+Request POST /repos/JessieJay92/Digital-Wanderer-Story/forks failed with 403: Forbidden
+Request GET /search/issues?sort=created&order=desc&q=algora+bounty+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 5.561804s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 42.407573s
+Request GET /search/issues?sort=created&order=desc&q=algora+bounty+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 5.306784s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=documentation+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request POST /repos/wINfOG/My_Reverse_Book/issues/1/comments failed with 403: Forbidden
+Setting next backoff to 816.312034s
+Request POST /repos/wINfOG/My_Reverse_Book/forks failed with 403: Forbidden
+Request GET /search/issues?sort=created&order=desc&q=%22algora.io%22+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=reward+security+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=documentation+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request POST /repos/SAKK-Statistics/survSAKK/forks failed with 403: Forbidden
+
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 51
+   Solutions Posted: 16
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 16/51 (31%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking dotnet/docs...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 52
+   Solutions Posted: 17
+   PRs Created: 9
+   Est. Earnings: $20.0
+   Success Rate: 17/52 (33%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+💵 Found $20.0 bounty: 🧪 Testing Bounty: PR #1970 - feat: implement search history for search pipe
+   📍 https://github.com/mediar-ai/screenpipe/issues/1971
+   📊 Type: test
+   ✅ Solution posted!
+
+🐛 Hunting Bug Bounties...
+
+🎯 Bug bounty $404.0: [Bug] 404 error: Bug Bounty form
+   📊 Type: bug
+   ✅ Solution posted!
+
+🎯 Bug bounty $675.0: [BOUNTY] Implement Security & Encryption
+   📊 Type: test
+   ✅ Solution posted!
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: Documentation: Developer documentation
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking kloudlite/kloudlite...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: Documentation: Architecture documentation
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking kloudlite/kloudlite...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: Documentation: Interactive documentation site
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking kloudlite/kloudlite...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: Typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking REGEX777/JettCRM...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: Readme
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking Liseu1/kanarownik-solvro-backend...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking JessieJay92/Digital-Wanderer-Story...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 62
+   Solutions Posted: 26
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 26/62 (42%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 63
+   Solutions Posted: 26
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 26/63 (41%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 63
+   Solutions Posted: 26
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 26/63 (41%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 63
+   Solutions Posted: 26
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 26/63 (41%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 63
+   Solutions Posted: 26
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 26/63 (41%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 63
+   Solutions Posted: 26
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 26/63 (41%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 63
+   Solutions Posted: 26
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 26/63 (41%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 63
+   Solutions Posted: 26
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 26/63 (41%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking wINfOG/My_Reverse_Book...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 64
+   Solutions Posted: 27
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 27/64 (42%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking SAKK-Statistics/survSAKK...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}Request POST /repos/rohanrhu/MacsyZones/forks failed with 403: Forbidden
+Request GET /search/issues?q=readme+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?sort=created&order=desc&q=org%3Aalgora-io+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=bounty+bug+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request POST /repos/vedatechnologiesinc/vedatechnologiesinc.github.io/issues/98/comments failed with 403: Forbidden
+Setting next backoff to 2445.623628s
+Request POST /repos/vedatechnologiesinc/vedatechnologiesinc.github.io/forks failed with 403: Forbidden
+Request POST /repos/FSpitzock/Checkmate_To_Do_List_tracker/forks failed with 403: Forbidden
+Request POST /repos/freeall/create-repository/forks failed with 403: Forbidden
+Request GET /search/issues?q=reward+security+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 50.624786s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 60s
+Request POST /repos/WindRunnerMax/EveryDay/forks failed with 403: Forbidden
+Request POST /repos/bryanivanblandon/coro-app/forks failed with 403: Forbidden
+Request POST /repos/Asterium360/client/forks failed with 403: Forbidden
+Request POST /repos/MyEngine-Official/EnumaElish-A-Ciegas----Official.my/forks failed with 403: Forbidden
+Request POST /repos/McLoyf/Recipe-Website/forks failed with 403: Forbidden
+
+
+📄 Documentation issue: Typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking rohanrhu/MacsyZones...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 67
+   Solutions Posted: 29
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 29/67 (43%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 67
+   Solutions Posted: 29
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 29/67 (43%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: [readme] Clean README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking vedatechnologiesinc/vedatechnologiesinc.github.io...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking FSpitzock/Checkmate_To_Do_List_tracker...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking freeall/create-repository...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 70
+   Solutions Posted: 32
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 32/70 (46%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 70
+   Solutions Posted: 32
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 32/70 (46%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 70
+   Solutions Posted: 32
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 32/70 (46%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 70
+   Solutions Posted: 32
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 32/70 (46%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking WindRunnerMax/EveryDay...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking bryanivanblandon/coro-app...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking Asterium360/client...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 74
+   Solutions Posted: 35
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 35/74 (47%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: Documentation #001 - API Documentation
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking MyEngine-Official/EnumaElish-A-Ciegas----Official.my...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 75
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/75 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 75
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/75 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 75
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/75 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 76
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/76 (47%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 76
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/76 (47%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 76
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/76 (47%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 76
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/76 (47%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 76
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/76 (47%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 76
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/76 (47%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 76
+   Solutions Posted: 36
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 36/76 (47%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: Typo
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking McLoyf/Recipe-Website...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}Request POST /repos/ezez1212/ghgjgjgj/forks failed with 403: Forbidden
+Request POST /repos/teia-community/teia-docs/issues/28/comments failed with 403: Forbidden
+Setting next backoff to 2809.878645s
+Request POST /repos/teia-community/teia-docs/forks failed with 403: Forbidden
+
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 77
+   Solutions Posted: 37
+   PRs Created: 9
+   Est. Earnings: $40.0
+   Success Rate: 37/77 (48%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+💵 Found $20.0 bounty: 🧪 Testing Bounty: PR #1975 - clarify 15 GB/month
+   📍 https://github.com/mediar-ai/screenpipe/issues/1976
+   📊 Type: test
+   ✅ Solution posted!
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: README
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking ezez1212/ghgjgjgj...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📊 Stats Update:
+   Issues Found: 80
+   Solutions Posted: 39
+   PRs Created: 9
+   Est. Earnings: $60.0
+   Success Rate: 39/80 (49%)
+⏰ Waiting 5 minutes...
+
+🎯 Hunting Algora Bounties...
+
+🐛 Hunting Bug Bounties...
+
+✨ Solving Good First Issues...
+
+📝 Fixing Documentation...
+
+📄 Documentation issue: Typos
+   📊 Type: typo
+   ✅ Solution posted!
+   🍴 Forking teia-community/teia-docs...
+   ⚠️ PR creation skipped: You cannot fork this repository at this time: 403 {"message": "You cannot fork this repository at this time", "documentation_url": "https://docs.github.com/rest/repos/forks#create-a-fork", "status": "403"}
+
+📄 Documentation issue: readme
+   📊 Type: documentation
+   ✅ Solution posted!
+   🍴 Forking DingJianhao/StoG-meets-SNN...Request POST /repos/DingJianhao/StoG-meets-SNN/forks failed with 403: Forbidden
+Request POST /repos/JeffToken31/Portfolio-project-Zafira/forks failed with 403: Forbidden
+Request POST /repos/vitdobatovkin/uber-ldyr1/forks failed with 403: Forbidden
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.760038s
+Request POST /repos/samuel-duhaime/chronotopia/forks failed with 403: Forbidden
+Request POST /repos/NVIDIA/Isaac-GR00T/forks failed with 403: Forbidden
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 56.003259s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.706487s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.161074s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.208558s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.120842s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 54.928257s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 55.174842s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 54.869908s
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 52.78123s
+Request POST /repos/eightyfourweb/waffle/forks failed with 403: Forbidden
+Request POST /repos/jeremylt/csci-3656-fall-2025/forks failed with 403: Forbidden
+Request POST /repos/RIT-Base/RIT-MULT/forks failed with 403: Forbidden
+Request POST /repos/vitdobatovkin/intel-lfk64/forks failed with 403: Forbidden
+Request POST /repos/vitdobatovkin/intel-lfk64/forks failed with 403: Forbidden
+Request GET /search/issues?q=payment+vulnerability+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 56.433074s
+Request GET /search/issues?sort=created&order=desc&q=org%3Aalgora-io+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 13.94281s
+Request GET /search/issues?q=bounty+bug+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 58.343745s
+Request GET /search/issues?q=typo+is%3Aissue+is%3Aopen failed with 403: Forbidden
+Setting next backoff to 56.78254s

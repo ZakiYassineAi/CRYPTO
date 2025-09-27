@@ -1,0 +1,52 @@
+{
+  "name": "medusa-payment-hyperswitch",
+  "version": "1.0.0",
+  "description": "Hyperswitch payment plugin for MedusaJS - $2000 Bounty Implementation",
+  "author": "Qethys",
+  "main": "dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Qethys/medusa-payment-hyperswitch.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "babel src -d dist --extensions \".ts,.js\"",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "@medusajs/medusa": "^1.x"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.21.0",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/express": "^4.17.17",
+    "jest": "^29.5.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "medusa",
+    "medusa-plugin",
+    "medusa-payment",
+    "hyperswitch",
+    "payment",
+    "juspay"
+  ],
+  "license": "MIT",
+  "directories": {
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/Qethys/medusa-payment-hyperswitch/issues"
+  },
+  "homepage": "https://github.com/Qethys/medusa-payment-hyperswitch#readme"
+}

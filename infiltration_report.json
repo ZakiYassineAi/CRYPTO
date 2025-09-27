@@ -1,0 +1,37 @@
+{
+  "timestamp": "2025-09-27T19:27:32.607817",
+  "target": "Across Protocol V3",
+  "phase": "Infiltration",
+  "vulnerabilities_found": 16,
+  "high_severity": 4,
+  "attack_vectors": [
+    {
+      "name": "Merkle Proof Forgery",
+      "description": "Forge merkle proofs to claim unauthorized refunds",
+      "target_function": "verifyRelayerRepayment",
+      "potential_profit": "$500,000 - $1,000,000",
+      "complexity": "HIGH",
+      "detection_risk": "MEDIUM"
+    },
+    {
+      "name": "Cross-Chain Reentrancy",
+      "description": "Exploit async message passing for double spending",
+      "target_function": "fillRelay",
+      "potential_profit": "$200,000 - $500,000",
+      "complexity": "MEDIUM",
+      "detection_risk": "HIGH"
+    }
+  ],
+  "estimated_profit": {
+    "minimum": "$150,000",
+    "maximum": "$1,000,000",
+    "timeline": "2-3 weeks"
+  },
+  "next_steps": [
+    "Submit SDK proposal to gain trust",
+    "Join private Discord channels",
+    "Deploy test exploits on testnet",
+    "Prepare Immunefi submission",
+    "Execute responsible disclosure"
+  ]
+}

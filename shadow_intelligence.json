@@ -1,0 +1,42 @@
+{
+  "timestamp": "2025-09-27T19:27:30.946608",
+  "specialization": "BRIDGE_VULNERABILITIES",
+  "targets": [
+    {
+      "name": "LayerZero",
+      "tvl": 8500000000,
+      "category": "Cross-Chain Messaging",
+      "vulnerability_score": 180,
+      "reason": "Complex cross-chain logic, high TVL"
+    },
+    {
+      "name": "Stargate Finance",
+      "tvl": 450000000,
+      "category": "Bridge",
+      "vulnerability_score": 170,
+      "reason": "Bridge protocol with massive liquidity"
+    },
+    {
+      "name": "Radiant Capital",
+      "tvl": 230000000,
+      "category": "Lending",
+      "vulnerability_score": 160,
+      "reason": "Cross-chain lending, complex oracle usage"
+    },
+    {
+      "name": "Pendle Finance",
+      "tvl": 180000000,
+      "category": "Yield Trading",
+      "vulnerability_score": 155,
+      "reason": "Complex yield tokenization"
+    },
+    {
+      "name": "Swell Network",
+      "tvl": 65000000,
+      "category": "Liquid Staking",
+      "vulnerability_score": 150,
+      "reason": "New protocol, rapid growth"
+    }
+  ],
+  "next_scan": "2025-10-04T19:27:30.946625"
+}
