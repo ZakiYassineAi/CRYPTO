@@ -1,0 +1,12 @@
+[package]
+name = "GriffinPSMExploit"
+version = "1.0.0"
+authors = ["Griffin Security Research"]
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+
+[addresses]
+griffin = "0x1337"
+std = "0x1"
+aptos_framework = "0x1"
