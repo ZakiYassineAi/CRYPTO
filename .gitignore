@@ -1,2 +1,5 @@
 .github_token
 across-contracts-v3/
+*.json
+!package.json
+!package-lock.json

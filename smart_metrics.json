@@ -1,0 +1,133 @@
+{
+  "bounties_found": 8,
+  "bounties_attempted": 0,
+  "prs_submitted": 0,
+  "prs_accepted": 0,
+  "total_earned": 0,
+  "opportunities": [
+    {
+      "platform": "github",
+      "title": "ZD Models",
+      "amount": 50000.0,
+      "url": "https://github.com/ZcashCommunityGrants/zcashcommunitygrants/issues/106",
+      "repo": [
+        "ZcashCommunityGrants",
+        "zcashcommunitygrants"
+      ],
+      "created_at": "2025-10-13T03:40:39Z",
+      "labels": [
+        "\ud83d\udccb Grant Application",
+        "\ud83d\udc40 Ready For ZCG Review"
+      ],
+      "comments": 6,
+      "complexity": "medium",
+      "priority_score": 4166.67
+    },
+    {
+      "platform": "github",
+      "title": "This is not an Issue. This is an invite to hack for a $5000 pool at Project GUD Deploython.",
+      "amount": 5000.0,
+      "url": "https://github.com/aniruddha1295/SONIC/issues/1",
+      "repo": [
+        "aniruddha1295",
+        "SONIC"
+      ],
+      "created_at": "2025-10-13T13:44:50Z",
+      "labels": [],
+      "comments": 0,
+      "complexity": "medium",
+      "priority_score": 416.67
+    },
+    {
+      "platform": "github",
+      "title": "This is not an Issue. This is an invite to hack for a $5000 pool at Project GUD Deploython.",
+      "amount": 5000.0,
+      "url": "https://github.com/ahsueh1996/1inch-swap/issues/1",
+      "repo": [
+        "ahsueh1996",
+        "1inch-swap"
+      ],
+      "created_at": "2025-10-13T13:43:20Z",
+      "labels": [],
+      "comments": 0,
+      "complexity": "medium",
+      "priority_score": 416.67
+    },
+    {
+      "platform": "github",
+      "title": "This is not an Issue. This is an invite to hack for a $5000 pool at Project GUD Deploython.",
+      "amount": 5000.0,
+      "url": "https://github.com/vidhisingh14/TradeSmart.ai/issues/1",
+      "repo": [
+        "vidhisingh14",
+        "TradeSmart.ai"
+      ],
+      "created_at": "2025-10-13T13:38:41Z",
+      "labels": [],
+      "comments": 0,
+      "complexity": "medium",
+      "priority_score": 416.67
+    },
+    {
+      "platform": "github",
+      "title": "This is not an Issue. This is an invite to hack for a $5000 pool at Project GUD Deploython.",
+      "amount": 5000.0,
+      "url": "https://github.com/NeelShah1505/AvaFace/issues/1",
+      "repo": [
+        "NeelShah1505",
+        "AvaFace"
+      ],
+      "created_at": "2025-10-13T13:36:14Z",
+      "labels": [],
+      "comments": 0,
+      "complexity": "medium",
+      "priority_score": 416.67
+    },
+    {
+      "platform": "github",
+      "title": "This is not an Issue. This is an invite to hack for a $5000 pool at Project GUD Deploython.",
+      "amount": 5000.0,
+      "url": "https://github.com/Retr0991/atomic-submission/issues/1",
+      "repo": [
+        "Retr0991",
+        "atomic-submission"
+      ],
+      "created_at": "2025-10-13T13:33:03Z",
+      "labels": [],
+      "comments": 0,
+      "complexity": "medium",
+      "priority_score": 416.67
+    },
+    {
+      "platform": "github",
+      "title": "This is not an Issue. This is an invite to hack for a $5000 pool at Project GUD Deploython.",
+      "amount": 5000.0,
+      "url": "https://github.com/ETHGlobal-New-Delhi-Haks/pay-hub/issues/1",
+      "repo": [
+        "ETHGlobal-New-Delhi-Haks",
+        "pay-hub"
+      ],
+      "created_at": "2025-10-13T13:30:36Z",
+      "labels": [],
+      "comments": 0,
+      "complexity": "medium",
+      "priority_score": 416.67
+    },
+    {
+      "platform": "github",
+      "title": "This is not an Issue. This is an invite to hack for a $5000 pool at Project GUD Deploython.",
+      "amount": 5000.0,
+      "url": "https://github.com/Ethglobal-New-Delhi/Uniswap-small-mcp/issues/1",
+      "repo": [
+        "Ethglobal-New-Delhi",
+        "Uniswap-small-mcp"
+      ],
+      "created_at": "2025-10-13T13:29:08Z",
+      "labels": [],
+      "comments": 0,
+      "complexity": "medium",
+      "priority_score": 416.67
+    }
+  ],
+  "last_updated": "2025-10-13T23:43:00.474950"
+}
