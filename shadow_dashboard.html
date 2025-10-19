@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shadow Hunter - Live Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Courier New', monospace;
+            background: #0a0a0a;
+            color: #00ff00;
+            min-height: 100vh;
+            padding: 20px;
+            background-image: 
+                radial-gradient(circle at 20% 50%, rgba(0, 255, 0, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 80%, rgba(0, 255, 0, 0.05) 0%, transparent 50%);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            border: 2px solid #00ff00;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0 30px rgba(0, 255, 0, 0.3);
+        }
+        
+        .header h1 {
+            font-size: 2.5rem;
+            text-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            margin-bottom: 10px;
+        }
+        
+        .arabic {
+            color: #ff0000;
+            font-size: 1.2rem;
+        }
+        
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .card {
+            background: rgba(0, 20, 0, 0.9);
+            border: 1px solid #00ff00;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.2);
+        }
+        
+        .card h2 {
+            color: #00ff00;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+            border-bottom: 1px solid #00ff00;
+            padding-bottom: 10px;
+        }
+        
+        .target-list {
+            list-style: none;
+        }
+        
+        .target-item {
+            background: rgba(0, 0, 0, 0.5);
+            margin: 10px 0;
+            padding: 15px;
+            border-left: 3px solid #00ff00;
+            transition: all 0.3s;
+        }
+        
+        .target-item:hover {
+            background: rgba(0, 40, 0, 0.7);
+            transform: translateX(5px);
+        }
+        
+        .primary-target {
+            border-left-color: #ff0000;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 10px rgba(255, 0, 0, 0.5); }
+            50% { box-shadow: 0 0 30px rgba(255, 0, 0, 0.8); }
+        }
+        
+        .score {
+            display: inline-block;
+            background: #ff0000;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 3px;
+            font-weight: bold;
+        }
+        
+        .tvl {
+            color: #ffff00;
+            font-weight: bold;
+        }
+        
+        .status-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .status-item {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border: 1px solid #00ff00;
+        }
+        
+        .status-label {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        
+        .status-value {
+            color: #00ff00;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        
+        .high-severity {
+            color: #ff0000 !important;
+        }
+        
+        .attack-vector {
+            background: rgba(50, 0, 0, 0.3);
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ff0000;
+        }
+        
+        .payment-address {
+            background: #000;
+            border: 2px solid #ffff00;
+            padding: 15px;
+            text-align: center;
+            margin: 20px 0;
+            font-family: monospace;
+            font-size: 1.1rem;
+            color: #ffff00;
+            word-break: break-all;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .action-btn {
+            flex: 1;
+            background: rgba(0, 255, 0, 0.1);
+            border: 1px solid #00ff00;
+            color: #00ff00;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            text-align: center;
+            font-family: inherit;
+        }
+        
+        .action-btn:hover {
+            background: rgba(0, 255, 0, 0.2);
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+        }
+        
+        .countdown {
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 20px 0;
+            color: #ffff00;
+        }
+        
+        .log-entry {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+            margin: 5px 0;
+            border-left: 2px solid #00ff00;
+            font-size: 0.9rem;
+        }
+        
+        .blink {
+            animation: blink 1s infinite;
+        }
+        
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>💀 SHADOW HUNTER DASHBOARD 💀</h1>
+        <p class="arabic">عقيدة الصياد - نظام الاستخبارات</p>
+        <p>Hunt in the Shadow Zones</p>
+    </div>
+
+    <div class="dashboard">
+        <div class="card">
+            <h2>🎯 PRIMARY TARGET</h2>
+            <div class="target-item primary-target">
+                <h3>Across Protocol V3</h3>
+                <p>Score: <span class="score">285/300</span></p>
+                <p>TVL: <span class="tvl">$180,000,000</span></p>
+                <p>Category: Cross-Chain Bridge</p>
+                <p>Status: <span class="blink">INFILTRATING...</span></p>
+                
+                <div class="status-grid">
+                    <div class="status-item">
+                        <div class="status-label">Vulnerabilities</div>
+                        <div class="status-value high-severity">16 Found</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-label">High Severity</div>
+                        <div class="status-value high-severity">4</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-label">Est. Profit</div>
+                        <div class="status-value">$150K-$1M</div>
+                    </div>
+                    <div class="status-item">
+                        <div class="status-label">Timeline</div>
+                        <div class="status-value">2-3 weeks</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>🔍 ALTERNATIVE TARGETS</h2>
+            <ul class="target-list">
+                <li class="target-item">
+                    <strong>Hyperlane</strong> - Score: 270/300
+                    <br>TVL: $95M | Interchain Messaging
+                </li>
+                <li class="target-item">
+                    <strong>Socket Protocol</strong> - Score: 265/300
+                    <br>TVL: $75M | Bridge Aggregator
+                </li>
+                <li class="target-item">
+                    <strong>Synapse V2</strong> - Score: 260/300
+                    <br>TVL: $120M | Cross-Chain AMM
+                </li>
+                <li class="target-item">
+                    <strong>Stargate V2</strong> - Score: 255/300
+                    <br>TVL: $340M | LayerZero Bridge
+                </li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>💣 ATTACK VECTORS</h2>
+            <div class="attack-vector">
+                <h3>Merkle Proof Forgery</h3>
+                <p>Target: verifyRelayerRepayment()</p>
+                <p>Potential: <span class="tvl">$500K - $1M</span></p>
+                <p>Complexity: HIGH | Risk: MEDIUM</p>
+            </div>
+            <div class="attack-vector">
+                <h3>Cross-Chain Reentrancy</h3>
+                <p>Target: fillRelay()</p>
+                <p>Potential: <span class="tvl">$200K - $500K</span></p>
+                <p>Complexity: MEDIUM | Risk: HIGH</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>📊 MISSION STATUS</h2>
+            <div class="status-grid">
+                <div class="status-item">
+                    <div class="status-label">Phase</div>
+                    <div class="status-value">Infiltration</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-label">Cover Story</div>
+                    <div class="status-value">SDK Dev</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-label">Success Rate</div>
+                    <div class="status-value">75%</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-label">Next Scan</div>
+                    <div class="status-value" id="nextScan">7 days</div>
+                </div>
+            </div>
+            
+            <h3 style="margin-top: 20px;">Recent Activity</h3>
+            <div id="activityLog">
+                <div class="log-entry">✅ Shadow Hunter system deployed</div>
+                <div class="log-entry">✅ Intelligence report generated</div>
+                <div class="log-entry">✅ Across V3 contracts analyzed</div>
+                <div class="log-entry">✅ 16 vulnerabilities identified</div>
+                <div class="log-entry">✅ SDK proposal prepared</div>
+                <div class="log-entry">⏳ Awaiting Discord infiltration...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="payment-address">
+        💰 PAYMENT ADDRESS: 0x958BD67f2f6be2Dc46D0e9e0Dd6d33F52EfCA67C
+    </div>
+
+    <div class="action-buttons">
+        <a href="https://across.to/bounties" target="_blank" class="action-btn">Visit Across Bounties</a>
+        <a href="https://discord.gg/across" target="_blank" class="action-btn">Join Discord</a>
+        <a href="https://github.com/across-protocol/contracts-v3" target="_blank" class="action-btn">View Contracts</a>
+        <a href="https://immunefi.com/bounty/across/" target="_blank" class="action-btn">Immunefi Bounty</a>
+    </div>
+
+    <div class="countdown">
+        <p>⏰ Time Until Phase 2: <span id="countdown">14 days</span></p>
+    </div>
+
+    <script>
+        // Auto-refresh activity log
+        function updateActivity() {
+            const activities = [
+                "🔍 Scanning for new vulnerabilities...",
+                "📡 Monitoring Discord channels...",
+                "🧪 Testing exploit vectors...",
+                "📊 Analyzing transaction patterns...",
+                "🎯 Tracking merkle proofs..."
+            ];
+            
+            const logDiv = document.getElementById('activityLog');
+            const randomActivity = activities[Math.floor(Math.random() * activities.length)];
+            const newEntry = document.createElement('div');
+            newEntry.className = 'log-entry';
+            newEntry.style.opacity = '0';
+            newEntry.textContent = randomActivity;
+            
+            logDiv.appendChild(newEntry);
+            
+            setTimeout(() => {
+                newEntry.style.opacity = '1';
+                newEntry.style.transition = 'opacity 0.5s';
+            }, 100);
+            
+            if (logDiv.children.length > 10) {
+                logDiv.removeChild(logDiv.children[0]);
+            }
+        }
+
+        // Update countdown
+        function updateCountdown() {
+            const target = new Date();
+            target.setDate(target.getDate() + 14);
+            const now = new Date();
+            const diff = target - now;
+            
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            
+            document.getElementById('countdown').textContent = `${days}d ${hours}h`;
+        }
+
+        // Initialize
+        setInterval(updateActivity, 5000);
+        setInterval(updateCountdown, 1000);
+        updateCountdown();
+    </script>
+</body>
+</html>

@@ -1,0 +1,4 @@
+/home/user/webapp/algora_hunter.py:18: DeprecationWarning: Argument login_or_token is deprecated, please use auth=github.Auth.Token(...) instead
+  self.github = Github(self.github_token)
+Request GET /repos/calcom/cal.com failed with 403: Forbidden
+Setting next backoff to 3185.769177s
