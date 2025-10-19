@@ -1,2 +1,41 @@
+# GitHub Token
 .github_token
+.env
+
+# Bot Data
+smart_bot_memory.json
+bot_memory.json
+bot_intelligent.log
+bot.log
+*.log
+
+# Process files
+.bot.pid
+*.pid
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Node
+node_modules/
+package-lock.json
+
+# Old stuff
 across-contracts-v3/
+sweep-bot-clone/
+medusa-hyperswitch-plugin/
+
+# Reports and old files
+*_report*.json
+*_report*.md
+verification_*.json
+shadow_*.json
+infiltration_*.json
+web3_strategy.json
