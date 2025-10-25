@@ -1,0 +1,149 @@
+{
+  "bot_name": "Intelligent Money Maker Bot",
+  "version": "3.0.0",
+  "payment_address": "0x958BD67f2f6be2Dc46D0e9e0Dd6d33F52EfCA67C",
+  
+  "search_config": {
+    "cycle_interval_seconds": 300,
+    "max_issues_per_query": 20,
+    "min_confidence_to_comment": 70,
+    "respect_rate_limits": true
+  },
+  
+  "issue_filters": {
+    "max_issue_age_days": 30,
+    "max_comments": 20,
+    "min_repo_stars": 50,
+    "skip_if_pr_exists": true,
+    "skip_if_already_commented": true
+  },
+  
+  "bounty_sources": {
+    "algora": {
+      "enabled": true,
+      "priority": 10,
+      "queries": [
+        "org:algora-io is:issue is:open",
+        "algora.io is:issue is:open label:bounty"
+      ]
+    },
+    "gitcoin": {
+      "enabled": true,
+      "priority": 9,
+      "queries": [
+        "gitcoin is:issue is:open"
+      ]
+    },
+    "issuehunt": {
+      "enabled": true,
+      "priority": 9,
+      "queries": [
+        "issuehunt is:issue is:open"
+      ]
+    },
+    "general_bounties": {
+      "enabled": true,
+      "priority": 7,
+      "queries": [
+        "label:bounty is:issue is:open stars:>100",
+        "\"bounty program\" is:issue is:open"
+      ]
+    }
+  },
+  
+  "quality_searches": {
+    "security": {
+      "enabled": true,
+      "priority": 9,
+      "query": "label:security is:issue is:open stars:>500 comments:<5",
+      "min_confidence": 75
+    },
+    "performance": {
+      "enabled": true,
+      "priority": 7,
+      "query": "label:performance is:issue is:open stars:>500",
+      "min_confidence": 70
+    },
+    "bugs": {
+      "enabled": true,
+      "priority": 8,
+      "query": "label:bug \"steps to reproduce\" is:issue is:open stars:>500",
+      "min_confidence": 75
+    },
+    "api": {
+      "enabled": true,
+      "priority": 7,
+      "query": "label:api is:issue is:open stars:>300",
+      "min_confidence": 70
+    }
+  },
+  
+  "known_paying_projects": [
+    {
+      "repo": "juspay/hyperswitch",
+      "type": "bounty_program",
+      "notes": "Has official bounty system"
+    },
+    {
+      "repo": "mediar-ai/screenpipe",
+      "type": "algora",
+      "notes": "Active Algora bounties"
+    },
+    {
+      "repo": "ethereum/go-ethereum",
+      "type": "bug_bounty",
+      "notes": "Security bug bounties"
+    },
+    {
+      "repo": "paritytech/polkadot",
+      "type": "bug_bounty",
+      "notes": "Security bug bounties"
+    }
+  ],
+  
+  "issue_types": {
+    "typo": {
+      "complexity": "low",
+      "base_confidence": 90,
+      "can_auto_pr": true
+    },
+    "documentation": {
+      "complexity": "low",
+      "base_confidence": 80,
+      "can_auto_pr": true
+    },
+    "bug": {
+      "complexity": "medium",
+      "base_confidence": 60,
+      "can_auto_pr": false
+    },
+    "security": {
+      "complexity": "high",
+      "base_confidence": 70,
+      "can_auto_pr": false
+    },
+    "feature": {
+      "complexity": "high",
+      "base_confidence": 40,
+      "can_auto_pr": false
+    },
+    "performance": {
+      "complexity": "medium",
+      "base_confidence": 60,
+      "can_auto_pr": false
+    }
+  },
+  
+  "rate_limits": {
+    "requests_per_hour": 4800,
+    "min_wait_between_requests_seconds": 3,
+    "backoff_on_rate_limit_seconds": 120
+  },
+  
+  "learning": {
+    "track_successful_patterns": true,
+    "track_failed_repos": true,
+    "avoid_failed_repos": true,
+    "min_confidence_boost_for_bounties": 20
+  }
+}

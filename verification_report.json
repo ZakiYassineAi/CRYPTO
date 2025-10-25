@@ -1,0 +1,45 @@
+{
+  "timestamp": "2025-09-22T12:56:07.677988",
+  "uptime_hours": 0.8437595555555556,
+  "stats": {
+    "issues_found": 11,
+    "solutions_posted": 5,
+    "prs_created": 0,
+    "actual_earnings": 0,
+    "potential_earnings": 10522756.0,
+    "start_time": "2025-09-22T12:05:30.143602"
+  },
+  "recent_bounties": [
+    {
+      "issue_id": 3440805719,
+      "repo": "status-im/nimbus-eth2",
+      "bounty": 10485760.0,
+      "timestamp": "2025-09-22T12:55:59.745978"
+    },
+    {
+      "issue_id": 3440554617,
+      "repo": "juspay/hyperswitch",
+      "bounty": 9249.0,
+      "timestamp": "2025-09-22T12:56:01.854004"
+    },
+    {
+      "issue_id": 3440547396,
+      "repo": "juspay/hyperswitch",
+      "bounty": 9249.0,
+      "timestamp": "2025-09-22T12:56:03.858743"
+    },
+    {
+      "issue_id": 3440540105,
+      "repo": "juspay/hyperswitch",
+      "bounty": 9249.0,
+      "timestamp": "2025-09-22T12:56:05.981289"
+    },
+    {
+      "issue_id": 3440524755,
+      "repo": "juspay/hyperswitch",
+      "bounty": 9249.0,
+      "timestamp": "2025-09-22T12:56:07.676268"
+    }
+  ],
+  "success_rate": 45.45454545454545
+}

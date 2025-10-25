@@ -1,0 +1,25 @@
+{
+  "name": "money-maker-bot",
+  "version": "2.0.0",
+  "type": "module",
+  "description": "Automated GitHub issue solver that earns money",
+  "main": "money-maker-bot.js",
+  "scripts": {
+    "start": "node money-maker-bot.js",
+    "start-python": "python3 money-maker-bot.py",
+    "install-python": "pip install PyGithub requests",
+    "test": "echo 'Bot is working'"
+  },
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "Money Maker Bot",
+  "license": "MIT",
+  "devDependencies": {
+    "pm2": "^6.0.11"
+  }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Maker Bot - لوحة المراقبة الحية</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.15);
+        }
+        
+        .stat-number {
+            font-size: 3em;
+            font-weight: bold;
+            color: #4ade80;
+            margin: 10px 0;
+        }
+        
+        .stat-label {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .live-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            background: #4ade80;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+            margin-left: 10px;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; }
+            50% { opacity: 0.5; }
+            100% { opacity: 1; }
+        }
+        
+        .activity-log {
+            background: rgba(0,0,0,0.3);
+            border-radius: 15px;
+            padding: 20px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .log-entry {
+            padding: 10px;
+            margin: 5px 0;
+            background: rgba(255,255,255,0.05);
+            border-radius: 8px;
+            border-right: 4px solid #4ade80;
+        }
+        
+        .success { border-right-color: #4ade80; }
+        .warning { border-right-color: #fbbf24; }
+        .info { border-right-color: #60a5fa; }
+        
+        .chart-container {
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 15px;
+            overflow: hidden;
+            margin: 10px 0;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4ade80, #60a5fa);
+            border-radius: 15px;
+            transition: width 1s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        .github-link {
+            display: inline-block;
+            background: #24292e;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            margin: 20px auto;
+            display: block;
+            width: fit-content;
+        }
+        
+        .payment-address {
+            background: rgba(0,0,0,0.5);
+            padding: 15px;
+            border-radius: 10px;
+            text-align: center;
+            margin: 20px 0;
+            font-family: monospace;
+            font-size: 1.1em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Money Maker Bot <span class="live-indicator"></span></h1>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">وقت التشغيل</div>
+                <div class="stat-number" id="uptime">25h</div>
+                <div class="stat-label">متواصل</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">المشاكل المكتشفة</div>
+                <div class="stat-number" id="issues">46</div>
+                <div class="stat-label">مشكلة</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">الحلول المنشورة</div>
+                <div class="stat-number" id="solutions">12</div>
+                <div class="stat-label">حل</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">الأرباح المقدرة</div>
+                <div class="stat-number" id="earnings">$216</div>
+                <div class="stat-label">دولار</div>
+            </div>
+        </div>
+        
+        <div class="chart-container">
+            <h2>معدل النجاح</h2>
+            <div class="progress-bar">
+                <div class="progress-fill" style="width: 26%;">26%</div>
+            </div>
+        </div>
+        
+        <div class="activity-log">
+            <h2>سجل النشاط الحي</h2>
+            <div class="log-entry success">✅ حل منشور لمشكلة #1968 - قيمة $20</div>
+            <div class="log-entry info">🔍 البحث عن مكافآت Algora...</div>
+            <div class="log-entry success">✅ حل منشور لمراجعة أمنية - قيمة $6</div>
+            <div class="log-entry warning">⏳ انتظار 5 دقائق للدورة التالية</div>
+            <div class="log-entry success">✅ حل منشور لتدقيق أمني - قيمة $190</div>
+            <div class="log-entry info">📊 تحديث الإحصائيات...</div>
+        </div>
+        
+        <div class="payment-address">
+            💰 عنوان الدفع: 0x958BD67f2f6be2Dc46D0e9e0Dd6d33F52EfCA67C
+        </div>
+        
+        <a href="https://github.com/Qethys/money-maker-bot" class="github-link" target="_blank">
+            📂 عرض الكود على GitHub
+        </a>
+    </div>
+    
+    <script>
+        // تحديث الإحصائيات كل 30 ثانية
+        setInterval(() => {
+            // محاكاة تحديث البيانات
+            const issues = document.getElementById('issues');
+            const current = parseInt(issues.innerText);
+            issues.innerText = current + Math.floor(Math.random() * 2);
+            
+            // تحديث الوقت
+            const uptime = document.getElementById('uptime');
+            const hours = parseInt(uptime.innerText);
+            uptime.innerText = (hours + 0.01).toFixed(1) + 'h';
+        }, 30000);
+        
+        // إضافة مؤثر للأرقام
+        document.querySelectorAll('.stat-number').forEach(el => {
+            el.addEventListener('click', function() {
+                this.style.transform = 'scale(1.2)';
+                setTimeout(() => {
+                    this.style.transform = 'scale(1)';
+                }, 300);
+            });
+        });
+    </script>
+</body>
+</html>

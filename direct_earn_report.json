@@ -1,0 +1,87 @@
+{
+  "timestamp": "2025-09-23T14:22:42.450542",
+  "platforms_checked": [
+    "https://gitpay.me",
+    "https://bountysource.com",
+    "https://issuehunt.io"
+  ],
+  "services_created": [
+    {
+      "name": "Code Review Service",
+      "description": "Offer quick code reviews for $1",
+      "platform": "Direct",
+      "potential": 1.0
+    },
+    {
+      "name": "Documentation Fix",
+      "description": "Fix documentation typos for tips",
+      "platform": "GitHub Sponsors",
+      "potential": 5.0
+    },
+    {
+      "name": "Bug Report Service",
+      "description": "Professional bug reporting",
+      "platform": "Bug Bounty",
+      "potential": 10.0
+    }
+  ],
+  "opportunities": [
+    {
+      "name": "Algora.io Bounty #1782",
+      "amount": 1782.0,
+      "difficulty": "Medium"
+    },
+    {
+      "name": "Hyperswitch Issues",
+      "amount": 37.0,
+      "difficulty": "Easy"
+    },
+    {
+      "name": "Documentation Fixes",
+      "amount": 5.0,
+      "difficulty": "Very Easy"
+    },
+    {
+      "name": "Good First Issues",
+      "amount": 1.0,
+      "difficulty": "Very Easy"
+    }
+  ],
+  "total_potential": 1825.0,
+  "payment_address": "0x958BD67f2f6be2Dc46D0e9e0Dd6d33F52EfCA67C",
+  "activities": [
+    {
+      "platform": "GitPay",
+      "status": "Checking",
+      "url": "https://gitpay.me"
+    },
+    {
+      "platform": "Bountysource",
+      "status": "Scanning",
+      "url": "https://bountysource.com"
+    },
+    {
+      "platform": "IssueHunt",
+      "status": "Active",
+      "url": "https://issuehunt.io"
+    },
+    {
+      "name": "Code Review Service",
+      "description": "Offer quick code reviews for $1",
+      "platform": "Direct",
+      "potential": 1.0
+    },
+    {
+      "name": "Documentation Fix",
+      "description": "Fix documentation typos for tips",
+      "platform": "GitHub Sponsors",
+      "potential": 5.0
+    },
+    {
+      "name": "Bug Report Service",
+      "description": "Professional bug reporting",
+      "platform": "Bug Bounty",
+      "potential": 10.0
+    }
+  ]
+}

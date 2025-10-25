@@ -1,0 +1,31 @@
+{
+  "generated_at": "2025-10-13T23:45:55.814650",
+  "total_found": 0,
+  "top_opportunities": [],
+  "security_programs": [
+    {
+      "platform": "HackerOne",
+      "name": "Node.js",
+      "url": "https://hackerone.com/nodejs",
+      "type": "Open Source Security",
+      "min_bounty": 0,
+      "max_bounty": 50000
+    },
+    {
+      "platform": "HackerOne",
+      "name": "Internet Bug Bounty",
+      "url": "https://hackerone.com/ibb",
+      "type": "Critical Infrastructure",
+      "min_bounty": 0,
+      "max_bounty": 100000
+    },
+    {
+      "platform": "Gitcoin",
+      "name": "Open Source Bounties",
+      "url": "https://gitcoin.co/explorer",
+      "type": "Development",
+      "min_bounty": 50,
+      "max_bounty": 5000
+    }
+  ]
+}

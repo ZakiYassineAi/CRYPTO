@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🚀 GitHub Revenue Bot - Live Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: white;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: slideDown 0.5s ease;
+        }
+        
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        
+        .live-indicator {
+            display: inline-flex;
+            align-items: center;
+            background: rgba(255,255,255,0.2);
+            padding: 10px 20px;
+            border-radius: 50px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .pulse {
+            width: 12px;
+            height: 12px;
+            background: #00ff00;
+            border-radius: 50%;
+            margin-left: 10px;
+            animation: pulse 1s infinite;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .stat-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.3s ease;
+            animation: fadeIn 0.5s ease;
+        }
+        
+        .stat-card:hover {
+            transform: translateY(-5px);
+            background: rgba(255,255,255,0.15);
+        }
+        
+        .stat-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin: 10px 0;
+            color: #00ff88;
+        }
+        
+        .stat-label {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .money-value {
+            color: #ffd700;
+            text-shadow: 0 0 10px rgba(255,215,0,0.5);
+        }
+        
+        .success-rate {
+            background: linear-gradient(90deg, #00ff88, #00d4ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .activity-log {
+            background: rgba(0,0,0,0.3);
+            border-radius: 20px;
+            padding: 30px;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+        
+        .log-entry {
+            background: rgba(255,255,255,0.05);
+            padding: 15px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            border-right: 4px solid #00ff88;
+            animation: slideIn 0.3s ease;
+        }
+        
+        .timestamp {
+            color: #00d4ff;
+            font-size: 0.9em;
+        }
+        
+        .bot-status {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        
+        .bot-card {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            border: 2px solid rgba(255,255,255,0.2);
+        }
+        
+        .bot-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .status-online {
+            color: #00ff88;
+            font-size: 0.8em;
+            display: flex;
+            align-items: center;
+        }
+        
+        .uptime {
+            background: rgba(0,255,136,0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        
+        @keyframes pulse {
+            0% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.5; transform: scale(1.2); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        
+        @keyframes slideDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateX(20px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+        
+        .chart-container {
+            background: rgba(255,255,255,0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            margin-top: 30px;
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 30px;
+            background: rgba(0,0,0,0.3);
+            border-radius: 15px;
+            overflow: hidden;
+            margin-top: 20px;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #00ff88, #00d4ff);
+            border-radius: 15px;
+            width: 123%;
+            max-width: 100%;
+            animation: progressAnimation 2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+        
+        @keyframes progressAnimation {
+            from { width: 0; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🤖 GitHub Revenue Bot Dashboard</h1>
+            <div class="live-indicator">
+                <span>LIVE - البث المباشر</span>
+                <div class="pulse"></div>
+            </div>
+        </div>
+        
+        <div class="bot-status">
+            <div class="bot-card">
+                <div class="bot-name">
+                    <span>💰 MONEY-BOT</span>
+                    <span class="status-online">
+                        <div class="pulse" style="margin-left: 5px;"></div>
+                        ONLINE
+                    </span>
+                </div>
+                <div>Process ID: 182176</div>
+                <div>Memory: 47.4 MB</div>
+                <div class="uptime">⏱️ Uptime: 25 Hours</div>
+            </div>
+            
+            <div class="bot-card">
+                <div class="bot-name">
+                    <span>⚙️ WORKING-BOT</span>
+                    <span class="status-online">
+                        <div class="pulse" style="margin-left: 5px;"></div>
+                        ONLINE
+                    </span>
+                </div>
+                <div>Process ID: 172287</div>
+                <div>Memory: 48.4 MB</div>
+                <div class="uptime">⏱️ Uptime: 2 Days</div>
+            </div>
+        </div>
+        
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-label">💵 Total Bounties Found</div>
+                <div class="stat-value money-value">$458.00</div>
+                <div class="stat-label">الجوائز المكتشفة</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">📈 Success Rate</div>
+                <div class="stat-value success-rate">123.1%</div>
+                <div class="stat-label">معدل النجاح</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">💡 Solutions Posted</div>
+                <div class="stat-value">16</div>
+                <div class="stat-label">الحلول المنشورة</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">🔀 PRs Created</div>
+                <div class="stat-value">9</div>
+                <div class="stat-label">طلبات السحب</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">🎯 Issues Found</div>
+                <div class="stat-value">51</div>
+                <div class="stat-label">المشكلات المكتشفة</div>
+            </div>
+            
+            <div class="stat-card">
+                <div class="stat-label">⚡ Average Bounty</div>
+                <div class="stat-value money-value">$28.62</div>
+                <div class="stat-label">متوسط الجائزة</div>
+            </div>
+        </div>
+        
+        <div class="chart-container">
+            <h2>📊 Performance Overview - نظرة عامة على الأداء</h2>
+            <div class="progress-bar">
+                <div class="progress-fill">123.1% Success Rate</div>
+            </div>
+        </div>
+        
+        <div class="activity-log">
+            <h2 style="margin-bottom: 20px;">📝 Recent Activity - النشاط الأخير</h2>
+            
+            <div class="log-entry">
+                <div class="timestamp">2025-09-21 08:30</div>
+                <div>✅ Solution posted for documentation issue</div>
+                <div>Repository: MukeshRamachandran/profile</div>
+            </div>
+            
+            <div class="log-entry">
+                <div class="timestamp">2025-09-21 08:25</div>
+                <div>💰 Found $190 bounty opportunity</div>
+                <div>High-value issue detected in Algora.io</div>
+            </div>
+            
+            <div class="log-entry">
+                <div class="timestamp">2025-09-21 08:20</div>
+                <div>🔄 Stats Update: 16/51 solutions (31% rate)</div>
+                <div>Estimated earnings: $20.0 for current batch</div>
+            </div>
+            
+            <div class="log-entry">
+                <div class="timestamp">2025-09-21 08:15</div>
+                <div>🍴 Successfully forked repository</div>
+                <div>Created PR for bug fix implementation</div>
+            </div>
+            
+            <div class="log-entry">
+                <div class="timestamp">2025-09-21 08:10</div>
+                <div>🔍 Scanning for new opportunities...</div>
+                <div>Searching: Algora bounties, bug bounties, paid issues</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Auto-refresh every 30 seconds
+        setTimeout(() => {
+            location.reload();
+        }, 30000);
+        
+        // Add timestamp
+        const now = new Date();
+        console.log('Dashboard loaded at:', now.toLocaleString());
+    </script>
+</body>
+</html>
