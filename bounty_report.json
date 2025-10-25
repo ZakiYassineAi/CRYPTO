@@ -1,0 +1,152 @@
+[
+  {
+    "title": "[BOUNTY]: <Bounty Title> celo",
+    "url": "https://github.com/celo-org/celo-monorepo/issues/11535",
+    "repo": [
+      "celo-org",
+      "celo-monorepo"
+    ],
+    "score": 65,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Marked as easy",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-09T08:02:37Z",
+    "comments": 1
+  },
+  {
+    "title": "Bounty:",
+    "url": "https://github.com/rachaelmartin768315/node-docs/issues/1",
+    "repo": [
+      "rachaelmartin768315",
+      "node-docs"
+    ],
+    "score": 45,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-24T16:16:22Z",
+    "comments": 1
+  },
+  {
+    "title": "Bounty ",
+    "url": "https://github.com/0marmazen/cheatsheat/issues/1",
+    "repo": [
+      "0marmazen",
+      "cheatsheat"
+    ],
+    "score": 45,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-03T04:54:43Z",
+    "comments": 1
+  },
+  {
+    "title": "Test Bounty",
+    "url": "https://github.com/Sahillather002/gitforge-template/issues/1",
+    "repo": [
+      "Sahillather002",
+      "gitforge-template"
+    ],
+    "score": 45,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-22T05:44:28Z",
+    "comments": 0
+  },
+  {
+    "title": "Faction bounty",
+    "url": "https://github.com/SowinskiBraeden/dayz-reforger/issues/55",
+    "repo": [
+      "SowinskiBraeden",
+      "dayz-reforger"
+    ],
+    "score": 45,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-15T16:49:02Z",
+    "comments": 2
+  },
+  {
+    "title": "Bug Bounty Inquiry",
+    "url": "https://github.com/astroport-fi/astroport-core/issues/474",
+    "repo": [
+      "astroport-fi",
+      "astroport-core"
+    ],
+    "score": 45,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-23T06:50:41Z",
+    "comments": 0
+  },
+  {
+    "title": "Bounty Hunter",
+    "url": "https://github.com/lainleyweb-practices/the_witcher/issues/1",
+    "repo": [
+      "lainleyweb-practices",
+      "the_witcher"
+    ],
+    "score": 45,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-07T08:51:21Z",
+    "comments": 1
+  },
+  {
+    "title": "[bounty] THERE ARE NO MORE BOUNTIES FOR SCREENPIPE",
+    "url": "https://github.com/mediar-ai/screenpipe/issues/1982",
+    "repo": [
+      "mediar-ai",
+      "screenpipe"
+    ],
+    "score": 45,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-22T15:47:15Z",
+    "comments": 0
+  },
+  {
+    "title": "Bounty: ZenDeck SPA",
+    "url": "https://github.com/Chakra-Network/dojo-spas/issues/3",
+    "repo": [
+      "Chakra-Network",
+      "dojo-spas"
+    ],
+    "score": 45,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention",
+      "\u2705 Low competition"
+    ],
+    "created": "2025-10-23T21:52:22Z",
+    "comments": 3
+  },
+  {
+    "title": "BOUNTY#2 Add Discord community integration for bounty notifications",
+    "url": "https://github.com/asymcrypto/gitforge-template/issues/2",
+    "repo": [
+      "asymcrypto",
+      "gitforge-template"
+    ],
+    "score": 30,
+    "signals": [
+      "\ud83d\udcb0 Has payment mention"
+    ],
+    "created": "2025-10-17T10:41:07Z",
+    "comments": 11
+  }
+]
