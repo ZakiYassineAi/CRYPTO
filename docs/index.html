@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwapVault - Instant Crypto Exchange | Best Rates, No Registration</title>
+    <meta name="description" content="Exchange 1500+ cryptocurrencies instantly with the best rates. No registration, no limits. BTC, ETH, BNB, USDT and more.">
+    <meta name="keywords" content="crypto exchange, swap crypto, bitcoin exchange, ethereum swap, BNB exchange, no registration, instant exchange, best rates">
+    <meta property="og:title" content="SwapVault - Instant Crypto Exchange">
+    <meta property="og:description" content="Exchange 1500+ cryptocurrencies instantly. Best rates, no registration required.">
+    <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x26A1;</text></svg>">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-icon">&#x26A1;</span>
+                <span class="logo-text">SwapVault</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#exchange" class="nav-link active">Exchange</a></li>
+                <li><a href="#prices" class="nav-link">Live Prices</a></li>
+                <li><a href="#calculator" class="nav-link">Calculator</a></li>
+                <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
+                <li><a href="#faq" class="nav-link">FAQ</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Exchange Widget -->
+    <section class="hero" id="exchange">
+        <div class="hero-bg-effects">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">Trusted by 50,000+ users worldwide</div>
+                    <h1>Swap Crypto <span class="gradient-text">Instantly</span></h1>
+                    <p class="hero-subtitle">Exchange 1,500+ cryptocurrencies with the best market rates. No registration, no limits, no hassle.</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" id="totalPairs">2,250,000+</span>
+                            <span class="stat-label">Exchange Pairs</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">1,500+</span>
+                            <span class="stat-label">Crypto Assets</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">&lt; 5 min</span>
+                            <span class="stat-label">Avg. Exchange Time</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-widget">
+                    <div class="widget-container" id="widgetContainer">
+                        <!-- ChangeNOW Widget will be loaded here -->
+                        <div class="widget-loading">
+                            <div class="spinner"></div>
+                            <p>Loading exchange...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Prices Ticker -->
+    <section class="ticker-section">
+        <div class="ticker-wrapper">
+            <div class="ticker" id="priceTicker">
+                <!-- Dynamically filled -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Choose <span class="gradient-text">SwapVault</span></h2>
+                <p>The fastest and most secure way to exchange cryptocurrencies</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">&#x1F512;</div>
+                    <h3>No Registration</h3>
+                    <p>Start exchanging immediately. No accounts, no KYC, no personal data required.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#x26A1;</div>
+                    <h3>Lightning Fast</h3>
+                    <p>Most exchanges complete in under 5 minutes. We aggregate the best rates from top exchanges.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#x1F4B0;</div>
+                    <h3>Best Rates</h3>
+                    <p>We compare rates across 15+ exchanges to give you the most crypto for your money.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#x1F30D;</div>
+                    <h3>1,500+ Coins</h3>
+                    <p>Access all major and trending cryptocurrencies including BTC, ETH, BNB, SOL, and more.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#x1F6E1;</div>
+                    <h3>Fixed Rates</h3>
+                    <p>Lock in your rate before exchanging. No surprises, no slippage, guaranteed amount.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#x1F4DE;</div>
+                    <h3>24/7 Support</h3>
+                    <p>Our support team is available around the clock to help with any questions or issues.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Live Prices Table -->
+    <section class="prices-section" id="prices">
+        <div class="container">
+            <div class="section-header">
+                <h2>Live <span class="gradient-text">Crypto Prices</span></h2>
+                <p>Real-time market data updated every 30 seconds</p>
+            </div>
+            <div class="prices-table-wrapper">
+                <table class="prices-table" id="pricesTable">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Coin</th>
+                            <th>Price</th>
+                            <th>24h Change</th>
+                            <th>Market Cap</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="pricesBody">
+                        <!-- Dynamically filled -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Crypto Calculator -->
+    <section class="calculator-section" id="calculator">
+        <div class="container">
+            <div class="section-header">
+                <h2>Crypto <span class="gradient-text">Calculator</span></h2>
+                <p>Calculate conversion rates between any cryptocurrencies</p>
+            </div>
+            <div class="calculator-card">
+                <div class="calc-row">
+                    <div class="calc-input-group">
+                        <label>You Send</label>
+                        <div class="calc-input-wrapper">
+                            <input type="number" id="calcAmount" value="1" min="0" step="any">
+                            <select id="calcFrom">
+                                <option value="bitcoin">BTC</option>
+                                <option value="ethereum">ETH</option>
+                                <option value="binancecoin">BNB</option>
+                                <option value="solana">SOL</option>
+                                <option value="tether">USDT</option>
+                                <option value="ripple">XRP</option>
+                                <option value="cardano">ADA</option>
+                                <option value="dogecoin">DOGE</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="calc-swap-btn" id="calcSwap">&#x21C4;</div>
+                    <div class="calc-input-group">
+                        <label>You Receive</label>
+                        <div class="calc-input-wrapper">
+                            <input type="number" id="calcResult" readonly>
+                            <select id="calcTo">
+                                <option value="tether">USDT</option>
+                                <option value="bitcoin">BTC</option>
+                                <option value="ethereum">ETH</option>
+                                <option value="binancecoin">BNB</option>
+                                <option value="solana">SOL</option>
+                                <option value="ripple">XRP</option>
+                                <option value="cardano">ADA</option>
+                                <option value="dogecoin">DOGE</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="calc-rate" id="calcRate"></div>
+                <a href="#exchange" class="btn btn-primary calc-exchange-btn">Exchange Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works" id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>How It <span class="gradient-text">Works</span></h2>
+                <p>Exchange crypto in 3 simple steps</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <h3>Choose Your Pair</h3>
+                    <p>Select the cryptocurrency you want to send and the one you want to receive. We support 1,500+ coins.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <h3>Enter Your Address</h3>
+                    <p>Provide the wallet address where you want to receive your exchanged cryptocurrency.</p>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <h3>Send & Receive</h3>
+                    <p>Send your crypto to the provided address. Your exchange will be completed in minutes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Exchanges -->
+    <section class="popular-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Popular <span class="gradient-text">Exchanges</span></h2>
+                <p>Most popular trading pairs right now</p>
+            </div>
+            <div class="popular-grid" id="popularGrid">
+                <!-- Dynamically filled -->
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section" id="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2>Frequently Asked <span class="gradient-text">Questions</span></h2>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How does SwapVault work?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>SwapVault aggregates exchange rates from multiple liquidity providers to offer you the best possible rate. Simply select your currencies, enter the amount, provide your wallet address, and send your crypto. The exchange is processed automatically and you receive your funds in minutes.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Do I need to create an account?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>No! SwapVault is completely registration-free. You don't need to provide any personal information or create an account. Just enter your wallet address and start exchanging.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What are the exchange fees?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Our fees are already included in the exchange rate you see. There are no hidden fees. What you see is what you get. We offer some of the most competitive rates in the industry.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        How long does an exchange take?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Most exchanges are completed within 2-20 minutes, depending on the blockchain network speed and confirmation requirements. Bitcoin exchanges may take longer due to network congestion.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is SwapVault safe to use?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Yes! SwapVault is powered by ChangeNOW, a trusted non-custodial exchange service. We never hold your funds. The exchange happens instantly and your crypto is sent directly to your wallet.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        What cryptocurrencies are supported?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>We support over 1,500 cryptocurrencies including Bitcoin (BTC), Ethereum (ETH), BNB, Solana (SOL), USDT, XRP, Cardano (ADA), Dogecoin (DOGE), and many more. New coins are added regularly.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        Is there a minimum or maximum exchange amount?
+                        <span class="faq-toggle">+</span>
+                    </button>
+                    <div class="faq-answer">
+                        <p>The minimum exchange amount varies by coin but is typically very low (around $2). There is no maximum limit for standard rate exchanges. Fixed rate exchanges may have upper limits.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-card">
+                <h2>Ready to Exchange?</h2>
+                <p>Join thousands of users who trust SwapVault for their crypto exchanges</p>
+                <a href="#exchange" class="btn btn-primary btn-lg">Start Exchanging Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <span class="logo-icon">&#x26A1;</span>
+                        <span class="logo-text">SwapVault</span>
+                    </a>
+                    <p>The fastest and most secure way to exchange cryptocurrencies. No registration, best rates, 1,500+ coins.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#exchange">Exchange</a></li>
+                        <li><a href="#prices">Live Prices</a></li>
+                        <li><a href="#calculator">Calculator</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Popular Pairs</h4>
+                    <ul>
+                        <li><a href="#exchange">BTC to ETH</a></li>
+                        <li><a href="#exchange">ETH to USDT</a></li>
+                        <li><a href="#exchange">BTC to BNB</a></li>
+                        <li><a href="#exchange">SOL to USDT</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#faq">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 SwapVault. All rights reserved. Powered by ChangeNOW technology.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ChangeNOW Widget Script -->
+    <script>
+        // Load ChangeNOW widget
+        function loadChangeNowWidget() {
+            const container = document.getElementById('widgetContainer');
+            container.innerHTML = '';
+            
+            const iframe = document.createElement('iframe');
+            iframe.id = 'iframe-widget';
+            iframe.src = 'https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=false&amount=0.1&amountFiat=1500&backgroundColor=1a1a2e&darkMode=true&from=btc&fromFiat=usd&horizontal=false&isFiat&lang=en&link_id=0a3277227de498&locales=true&logo=false&primaryColor=6366f1&to=eth&toFiat=eth&toTheMoon=true';
+            iframe.style.cssText = 'height:356px;width:100%;border:none;border-radius:16px;';
+            
+            container.appendChild(iframe);
+        }
+        
+        window.addEventListener('DOMContentLoaded', loadChangeNowWidget);
+    </script>
+    <script src="js/app.js"></script>
+</body>
+</html>

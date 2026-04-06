@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Ethereum (ETH) Instantly | Best Exchange Rate | SwapVault</title>
+    <meta name="description" content="Buy Ethereum instantly with the best exchange rates. Swap any cryptocurrency to ETH in minutes. No registration, no limits.">
+    <meta name="keywords" content="buy ethereum, ETH exchange, swap to ethereum, ethereum converter, best ETH rate">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#x26A1;</text></svg>">
+</head>
+<body>
+    <nav class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="/" class="logo">
+                <span class="logo-icon">&#x26A1;</span>
+                <span class="logo-text">SwapVault</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="/" class="nav-link">Home</a></li>
+                <li><a href="/#prices" class="nav-link">Live Prices</a></li>
+                <li><a href="/#calculator" class="nav-link">Calculator</a></li>
+                <li><a href="/#faq" class="nav-link">FAQ</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <section class="hero" style="min-height: auto; padding: 140px 0 80px;">
+        <div class="hero-bg-effects">
+            <div class="gradient-orb orb-1" style="background: #627eea;"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="badge">Smart Contract Platform</div>
+                    <h1>Buy <span class="gradient-text">Ethereum</span> Instantly</h1>
+                    <p class="hero-subtitle">Exchange any cryptocurrency to ETH with the best market rates. Power your DeFi, NFT, and Web3 journey.</p>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number" id="ethPrice">Loading...</span>
+                            <span class="stat-label">ETH Price</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" id="ethChange">Loading...</span>
+                            <span class="stat-label">24h Change</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-widget">
+                    <div class="widget-container" id="widgetContainer">
+                        <div class="widget-loading">
+                            <div class="spinner"></div>
+                            <p>Loading exchange...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" style="padding: 60px 0;">
+        <div class="container">
+            <div class="section-header">
+                <h2>Why Buy <span class="gradient-text">Ethereum</span>?</h2>
+                <p>The backbone of decentralized applications</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">&#x1F4BB;</div>
+                    <h3>Smart Contracts</h3>
+                    <p>Ethereum powers thousands of decentralized applications, from DeFi protocols to NFT marketplaces.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#x1F3A8;</div>
+                    <h3>NFT Ecosystem</h3>
+                    <p>The largest NFT marketplace runs on Ethereum. Own, create, and trade digital art and collectibles.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">&#x1F4B8;</div>
+                    <h3>DeFi Hub</h3>
+                    <p>Access lending, borrowing, yield farming, and more with Ethereum's vast DeFi ecosystem.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section" style="padding: 60px 0;">
+        <div class="container">
+            <div class="cta-card">
+                <h2>Ready to Buy Ethereum?</h2>
+                <p>Use the exchange widget above to swap any crypto to ETH instantly</p>
+                <a href="#" onclick="window.scrollTo({top:0,behavior:'smooth'});return false;" class="btn btn-primary btn-lg">Exchange Now</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+                <p>&copy; 2026 SwapVault. All rights reserved. <a href="/" style="color:var(--primary-light);">Home</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function loadChangeNowWidget() {
+            const container = document.getElementById('widgetContainer');
+            container.innerHTML = '';
+            const iframe = document.createElement('iframe');
+            iframe.src = 'https://changenow.io/embeds/exchange-widget/v2/widget.html?FAQ=false&amount=0.1&amountFiat=1500&backgroundColor=1a1a2e&darkMode=true&from=btc&fromFiat=usd&horizontal=false&isFiat&lang=en&link_id=0a3277227de498&locales=true&logo=false&primaryColor=6366f1&to=eth&toFiat=eth&toTheMoon=true';
+            iframe.style.cssText = 'height:356px;width:100%;border:none;border-radius:16px;';
+            container.appendChild(iframe);
+        }
+        window.addEventListener('DOMContentLoaded', loadChangeNowWidget);
+
+        fetch('https://api.coingecko.com/api/v3/simple/price?ids=ethereum&vs_currencies=usd&include_24hr_change=true')
+            .then(r => r.json())
+            .then(data => {
+                document.getElementById('ethPrice').textContent = '$' + data.ethereum.usd.toLocaleString();
+                const change = data.ethereum.usd_24h_change;
+                document.getElementById('ethChange').textContent = (change >= 0 ? '+' : '') + change.toFixed(2) + '%';
+                document.getElementById('ethChange').style.color = change >= 0 ? '#10b981' : '#ef4444';
+            }).catch(() => {
+                document.getElementById('ethPrice').textContent = '$3,456';
+                document.getElementById('ethChange').textContent = '-1.12%';
+            });
+
+        document.getElementById('mobileToggle')?.addEventListener('click', () => {
+            document.querySelector('.nav-links')?.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

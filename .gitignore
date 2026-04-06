@@ -2,3 +2,8 @@
 *_token.py
 .github_token
 *.log
+node_modules/
+.env
+*.pyc
+__pycache__/
+.DS_Store
